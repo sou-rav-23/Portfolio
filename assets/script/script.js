@@ -49,3 +49,59 @@ function asideSectionTogglerBtn(){
     allSection[i].classList.toggle("open");
   }
 }
+
+
+// $(document).ready(function () {
+//   var typed = new Typed(".typing", {
+//     strings: ["an Algorithm Developer Intern", "a Competitive Coder", "a Web Developer"],
+//     typeSpeed: 100,
+//     backSpeed: 60,
+//     loop: true,
+//   });
+// });
+
+
+
+
+
+
+// Method 2 : 3 color
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const textContainer = document.getElementById("text");
+  const sentences = ["a Full-Stack Web Developer", "an Algorithm Developer", "a Competitive Coder"];
+  let index = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+
+  function typeNextChar() {
+    const currentSentence = sentences[index];
+
+    if (isDeleting) {
+      if (charIndex > 0) {
+        textContainer.textContent = currentSentence.substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(typeNextChar, 50); // Adjust the speed of deleting characters if needed
+      } else {
+        isDeleting = false;
+        index = (index + 1) % sentences.length;
+        setTimeout(typeNextChar, 50); // Adjust the delay before typing the next sentence if needed
+      }
+    } else {
+      if (charIndex < currentSentence.length) {
+        const nextChar = currentSentence[charIndex];
+        
+        textContainer.innerHTML += `<span class="rest-letters">${nextChar}</span>`;
+        
+        charIndex++;
+        setTimeout(typeNextChar, 50); // Adjust the speed of typing characters if needed
+      } else {
+        isDeleting = true;
+        setTimeout(typeNextChar, 3000); // Wait for 3 seconds before deleting
+      }
+    }
+  }
+
+  typeNextChar();
+});

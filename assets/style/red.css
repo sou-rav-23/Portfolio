@@ -6,6 +6,8 @@
   border-right: 4px solid #e40017;
   border-bottom: 4px solid #e40017;
 }
+body.dark #myself,
+/* body.dark #text-container, */
 body.dark .aside .nav li a:hover,
 body.dark .aside .nav li a.active,
 .aside .nav li a:hover,
