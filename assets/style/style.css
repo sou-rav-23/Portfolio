@@ -368,7 +368,7 @@ footer{
   height: 350px;
   width: 350px;
   align-items: center;
-  border: 8px dotted #ffffff;  
+  border: 8px ridge #ffffff;  
   border-radius: 50%;
   display: inline-block;
   animation: spin 7s linear infinite;
@@ -385,10 +385,11 @@ footer{
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  border: 8px ridge #f8f8f8;
+  border: 5px solid #f8f8f8;
   /* mix-blend-mode: multiply; */
   
 }
+
 @keyframes spin {
   0% { border-top-color: #e40017 }
   25% { border-top-color:none; border-right-color: #ffcc00 ; }
