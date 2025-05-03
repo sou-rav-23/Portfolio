@@ -368,7 +368,7 @@ footer{
   height: 350px;
   width: 350px;
   align-items: center;
-  border: 5px ridge #ffffff;  
+  border: 6px ridge #f0f1fb;  
   border-radius: 50%;
   display: inline-block;
   animation: spin 7s linear infinite;
@@ -378,7 +378,7 @@ footer{
 
 .home .intro .spinner img{
   /* filter: drop-shadow(2px 9px 7px orange); */
-  filter: drop-shadow(-4px 5px 41px #ec6e9c6c);
+  filter: drop-shadow(-4px 5px 41px #d2bdc56c);
   
 }
 .home .intro img{
@@ -386,6 +386,7 @@ footer{
   width: 100%;
   border-radius: 50%;
   border: 8px solid #f8f8f8;
+  border-style: ridge;
   /* mix-blend-mode: multiply; */
   
 }
