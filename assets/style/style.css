@@ -368,7 +368,7 @@ footer{
   height: 350px;
   width: 350px;
   align-items: center;
-  border: 6px ridge #f0f1fb;  
+  border: 8px ridge #f0f1fb;  
   border-radius: 50%;
   display: inline-block;
   animation: spin 7s linear infinite;
@@ -385,8 +385,7 @@ footer{
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  border: 8px solid #f8f8f8;
-  border-style: ridge;
+  border: 8px ridge #f8f8f8;
   /* mix-blend-mode: multiply; */
   
 }
