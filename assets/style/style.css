@@ -391,12 +391,13 @@ footer{
 }
 
 @keyframes spin {
-  0% { border-top-color: #e40017 }
-  25% { border-top-color:none; border-right-color: #ffcc00 ; }
-  50% { border-top-color: none; border-right-color: none; border-bottom-color: #57d131; }
-  75% { border-top-color: none; border-right-color: none; border-bottom-color: none; border-left-color: #a100ff; }
-  100% { border-top-color: #0779e4; border-right-color: none; border-bottom-color: none; border-left-color: none; } 
+  0%   { border-top-color: #b30000; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent; }
+  25%  { border-top-color: transparent; border-right-color: #b38600; border-bottom-color: transparent; border-left-color: transparent; }
+  50%  { border-top-color: transparent; border-right-color: transparent; border-bottom-color: #009933; border-left-color: transparent; }
+  75%  { border-top-color: transparent; border-right-color: transparent; border-bottom-color: transparent; border-left-color: #6a00b3; }
+  100% { border-top-color: #00264d; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent; }
 }
+
 
 /* Wave_hand */
 
