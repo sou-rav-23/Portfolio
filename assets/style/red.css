@@ -33,3 +33,6 @@ body.dark .aside .nav li a.active,
 .about .about-content .about-text h3 span{
   color: #e40017;
 }
+.home .intro img{
+  border-color: #e40017;  
+}
