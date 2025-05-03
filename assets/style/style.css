@@ -368,7 +368,7 @@ footer{
   height: 350px;
   width: 350px;
   align-items: center;
-  border: 8px dotted #ffffff;  
+  border: 5px ridge #ffffff;  
   border-radius: 50%;
   display: inline-block;
   animation: spin 7s linear infinite;
